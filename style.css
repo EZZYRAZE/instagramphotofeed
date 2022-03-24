@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgba(219, 219, 219, 0.781);
+}
+
+.breathcode-heading{
+    background-color: white;
+    text-align: center;
+}
+
+.photofeed{
+    max-width: 400px;
+    margin: 0 auto;
+    padding-block: 20px;
+}
+
+.photofeed .heading{
+    height: 25px;
+    background: white;
+    display: flex;
+  
+    justify-content: space-between; 
+}
+
+img{
+  width: 400px;
+  height: 325px;    
+}
+.image{
+    height: 325px;
+}
+#date{
+    color: grey;
+}
+
+#pid{
+    text-decoration: none;
+   font-weight: bold;
+}
+
+.photofeed .text{
+    background: white;
+    padding: 2px;
+}
+
+
+
